@@ -10,12 +10,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val Play:FloatingActionButton=findViewById(R.id.play_btn)
+        val Play: FloatingActionButton =findViewById(R.id.play_btn)
 
         Play.setOnClickListener {
             PlayPause()
         }
-        val Pause : FloatingActionButton=findViewById(R.id.stop_btn)
+        val Pause : FloatingActionButton =findViewById(R.id.stop_btn)
 
         Pause.setOnClickListener {
             Stop()
